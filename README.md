@@ -1,0 +1,2 @@
+# Entomophagy
+Eat Bugs Yum
