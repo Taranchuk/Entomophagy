@@ -6,7 +6,7 @@
     <label>packaged survival insect meal</label>
     <description>A high-quality packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</description>
     <graphicData>
-      <texPath>Insect_SurvivalPack</texPath>
+      <texPath>Items/Insect_SurvivalPack</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
@@ -30,7 +30,7 @@
     <label>simple insect meal</label>
     <description>A simple insect meal quickly cooked from one main ingredient.</description>
     <graphicData>
-      <texPath>Insect_Simple</texPath>
+      <texPath>Meals/Insect_Simple</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
@@ -50,7 +50,7 @@
     <label>fine insect meal</label>
     <description>A complex dish assembled with care from a variety of ingredients.</description>
     <graphicData>
-      <texPath>Insect_Fine</texPath>
+      <texPath>Meals/Insect_Fine</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
@@ -71,7 +71,7 @@
     <label>lavish insect meal</label>
     <description>A masterpiece of the culinary arts, this insect meal nourishes the body, mind, and soul.</description>
     <graphicData>
-      <texPath>Insect_Lavish</texPath>
+      <texPath>Meals/Insect_Lavish</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
@@ -96,7 +96,7 @@
       <li>Foods</li>
     </thingCategories>
     <graphicData>
-      <texPath>Insect_Pemmican</texPath>
+      <texPath>Items/Insect_Pemmican</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
