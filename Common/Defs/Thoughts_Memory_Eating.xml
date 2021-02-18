@@ -20,4 +20,20 @@
     </stages>
   </ThoughtDef>
 	
+	<ThoughtDef>
+    <defName>ForagedForBugs</defName>
+    <durationDays>1</durationDays>
+		<requiredTraits>
+			<li>Entomophagous</li>
+		</requiredTraits>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>1.0</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>foraged for bugs</label>
+        <description>I foraged for some squiggly bug snacks.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 </Defs>
