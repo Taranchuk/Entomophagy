@@ -9,6 +9,7 @@
     <intensity>Minor</intensity>
 		<requiredTrait>Entomophagous</requiredTrait>
   </MentalBreakDef>
+	
   <MentalStateDef>
     <defName>BugForaging</defName>
     <stateClass>Entomophagy.MentalState_BugForaging</stateClass>

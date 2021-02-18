@@ -7,11 +7,12 @@
       <li>
         <label>entomophagous</label>
         <description>{PAWN_nameDef} ate bugs as a regular part of {PAWN_possessive} diet and learned to love them. {PAWN_pronoun} forages for bugs while moving, slowing walking speed but reducing hunger and providing a single variety of food. {PAWN_pronoun} can eat insect meat without a mood penalty.</description>
-			<hungerRateFactor>0.85</hungerRateFactor>
-			<statOffsets>
-				<MoveSpeed>-0.05</MoveSpeed>
-			</statOffsets>
-			<thinkTree></thinkTree>
+				<randomMentalState>BugForaging</randomMentalState>
+				<randomMentalStateMtbDaysMoodCurve>
+					<points>
+						<li>(0, 50)</li>
+					</points>
+				</randomMentalStateMtbDaysMoodCurve>
       </li>
     </degreeDatas>
 		<conflictingTraits>
