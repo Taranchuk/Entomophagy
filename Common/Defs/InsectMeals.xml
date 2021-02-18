@@ -30,7 +30,7 @@
     <label>simple insect meal</label>
     <description>A simple insect meal quickly cooked from one main ingredient.</description>
     <graphicData>
-      <texPath>Meals/Insect_Simple</texPath>
+      <texPath>Meals/Insect_MealSimple</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
@@ -50,7 +50,7 @@
     <label>fine insect meal</label>
     <description>A complex dish assembled with care from a variety of ingredients.</description>
     <graphicData>
-      <texPath>Meals/Insect_Fine</texPath>
+      <texPath>Meals/Insect_MealFine</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
@@ -71,7 +71,7 @@
     <label>lavish insect meal</label>
     <description>A masterpiece of the culinary arts, this insect meal nourishes the body, mind, and soul.</description>
     <graphicData>
-      <texPath>Meals/Insect_Lavish</texPath>
+      <texPath>Meals/Insect_MealLavish</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
