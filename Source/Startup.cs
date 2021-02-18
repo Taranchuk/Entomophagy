@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Reflection;
-using RimWorld;
+﻿using System.Reflection;
 using Verse;
 using HarmonyLib;
 
@@ -19,9 +17,9 @@ namespace Entomophagy
                 RecipeList.CreateRecipeList();
                 RecipeList.AddRecipes();
             }
-            AddBackStoryTraits();
+            //AddBackStoryTraits();
         }
-
+        /*
         static void AddBackStoryTraits()
         {
             Backstory bs;
@@ -43,5 +41,6 @@ namespace Entomophagy
                 }
             }
         }
+        */
     }      
 }

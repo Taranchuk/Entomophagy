@@ -59,13 +59,13 @@
   <ItemGroup>
     <Compile Include="Entomophagy_DefOf.cs" />
     <Compile Include="MealList.cs" />
-    <Compile Include="JobDriver_ForageForBugs.cs" />
+    <Compile Include="MentalStateWorker_BugForaging.cs" />
+    <Compile Include="MentalState_BugForaging.cs" />
     <Compile Include="ModSettings_Entomophagy.cs" />
     <Compile Include="Mod_Entomophagy.cs" />
     <Compile Include="RecipeList.cs" />
     <Compile Include="Startup.cs" />
-    <Compile Include="Patch_Hungry.cs" />
-    <Compile Include="JobGiver_ForageForBugs.cs" />
+    <Compile Include="JobGiver_WanderForaging.cs" />
     <Compile Include="Thoughts_EatInsects.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

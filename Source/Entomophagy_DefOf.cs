@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using RimWorld;
+﻿using RimWorld;
 using Verse;
 
 namespace Entomophagy
@@ -18,9 +17,10 @@ namespace Entomophagy
         public static RecipeDef Insect_MakePemmican;
         public static RecipeDef Insect_MakePemmicanBulk;
 
-        //public static JobDef ForageForBugs;
+       // public static JobDef ForageForBugs;
 
-        //public static ThoughtDef RecentlyForaged;
+        public static ThoughtDef AteInsectMeatAsEntomophagous;
+        public static ThoughtDef ForagedForBugs;
 
         static Entomophagy_DefOf()
         {
