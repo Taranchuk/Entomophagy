@@ -1,4 +1,6 @@
-﻿using RimWorld;
+﻿using System.Collections.Generic;
+using RimWorld;
+using RimWorld.Planet;
 using Verse;
 using Verse.AI;
 
@@ -29,6 +31,24 @@ namespace Entomophagy
         public override void PostEnd()
         {
             pawn.needs.mood.thoughts.memories.TryGainMemory(def.moodRecoveryThought, null);
+            List<Pawn> otherPawns = new List<Pawn>();
+            Pawn otherPawn;
+            if (pawn.Map != null)
+            {
+                otherPawns = pawn.Map.mapPawns.AllPawnsSpawned;
+            }
+            else if (pawn.IsCaravanMember())
+            {
+                otherPawns = pawn.GetCaravan().PawnsListForReading;
+            }
+            for (int i = 0; i < otherPawns.Count; i++)
+            {
+                otherPawn = otherPawns[i];
+                if (!otherPawn.NonHumanlikeOrWildMan() && otherPawn.needs != null)
+                {
+                    otherPawn.needs.mood.thoughts.memories.TryGainMemory(Entomophagy_DefOf.ObservedForaging, pawn);
+                }
+            }
         }
     }
 }

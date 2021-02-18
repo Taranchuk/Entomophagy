@@ -21,6 +21,7 @@ namespace Entomophagy
 
         public static ThoughtDef AteInsectMeatAsEntomophagous;
         public static ThoughtDef ForagedForBugs;
+        public static ThoughtDef ObservedForaging;
 
         static Entomophagy_DefOf()
         {
