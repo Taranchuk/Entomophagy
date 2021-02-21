@@ -22,7 +22,7 @@
 	
 	<ThoughtDef>
     <defName>ForagedForBugs</defName>
-    <durationDays>1</durationDays>
+    <durationDays>.5</durationDays>
 		<requiredTraits>
 			<li>Entomophagous</li>
 		</requiredTraits>

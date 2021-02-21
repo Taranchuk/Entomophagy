@@ -12,7 +12,6 @@ namespace Entomophagy
             if (pawn.Drafted  ||
                 HealthAIUtility.ShouldBeTendedNowByPlayer(pawn) ||
                 pawn.needs.food == null ||
-                pawn.needs.food.CurCategory < HungerCategory.Hungry ||
                 curMemories.GetFirstMemoryOfDef(Entomophagy_DefOf.ForagedForBugs) != null ||
                 curMemories.GetFirstMemoryOfDef(Entomophagy_DefOf.AteInsectMeatAsEntomophagous) != null ||
                 !JoyUtility.EnjoyableOutsideNow(pawn.Map))

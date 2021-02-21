@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Entomophagy_DefOf.cs" />
     <Compile Include="MealList.cs" />
+    <Compile Include="MentalStateGiver_Entomophagy.cs" />
     <Compile Include="MentalStateWorker_BugForaging.cs" />
     <Compile Include="MentalState_BugForaging.cs" />
     <Compile Include="ModSettings_Entomophagy.cs" />
