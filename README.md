@@ -7,4 +7,4 @@ Adds an entomophagous (bug eater) trait. Pawns with this trait enjoy eating bugs
 
 As a result of their special mental break, entomophagous pawns are much less likely starve. However, foraging is a very inefficent use of time and causes a slight negative social opinion in others. You can prevent entomophagous meals from foraging by providing them a steady diet of insect meals.
 
-A new bug hotel and bug condo provides a method for converting raw plant food into insect meat. The condo is more efficient and produces insect meat more often.
+(Requires Universal Fermeneter): A new bug hotel and bug condo provides a method for converting raw plant food into insect meat. The condo is more efficient and produces insect meat more often.
