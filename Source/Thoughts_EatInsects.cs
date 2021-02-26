@@ -21,6 +21,7 @@ namespace Entomophagy
                 }
                 if (__result.Contains(ThoughtDefOf.AteInsectMeatDirect))
                 {
+                    __result.Remove(ThoughtDefOf.AteCorpse);
                     __result.Remove(ThoughtDefOf.AteInsectMeatDirect);
                     __result.Add(ThoughtDef.Named("AteInsectMeatAsEntomophagous"));
                 }
