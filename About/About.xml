@@ -4,11 +4,13 @@
 	<name>Entomophagy</name>
   <author>HIGGS, Cozarkian</author>
   <packageId>HIGGS.Cozarkian.Entomophagy</packageId>
+  <!-- steam://url/CommunityFilePage/2407672870 -->
+  <url>https://steamcommunity.com/sharedfiles/filedetails/?id=2407672870</url>
 	<description>Eat Bug Yum. Adds an entomophagous trait and corresponding insect meals and recipes.  
   
   CREDITS:
   Cozarkian: XML and Coding
-  HIGGS: Little XML and Artwork</description>
+  HIGGS: XML and Artwork</description>
 	<supportedVersions>
 		<li>1.2</li>
 	</supportedVersions>
