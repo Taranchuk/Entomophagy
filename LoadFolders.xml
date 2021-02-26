@@ -4,6 +4,7 @@
 	<v1.2>
 		<li>Common</li>
 		<li IfModActive="VanillaExpanded.VCookE">VCE_Patch</li>
+		<li IfModActive="syrchalis.universalfermenter">UniversalFermenter</li>
 	</v1.2>
 </loadFolders>
 
