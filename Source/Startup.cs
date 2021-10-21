@@ -11,11 +11,11 @@ namespace Entomophagy
         {
             Harmony harmony = new Harmony("com.rimworld.entomophagy");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
-            MealList.CreateMealList();
+            MealReplacer.CreateMealList();
             if (ModSettings_Entomophagy.insectRecipes)
             {
-                RecipeList.CreateRecipeList();
-                RecipeList.AddRecipes();
+                RecipeInserter.CreateRecipeList();
+                RecipeInserter.AddRecipes();
             }
             //AddBackStoryTraits();
         }

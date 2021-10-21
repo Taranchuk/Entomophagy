@@ -1,13 +1,12 @@
-﻿using System.Collections.Generic;
+﻿/* For v1.2
+using System.Collections.Generic;
 using HarmonyLib;
 using RimWorld;
 using Verse;
 
 namespace Entomophagy
 {
-    [HarmonyPatch]
-    public class Thoughts_EatInsects
-    {
+
         [HarmonyPatch(typeof(FoodUtility), "ThoughtsFromIngesting")]
         private static void Postfix(ref List<ThoughtDef> __result, Pawn ingester)
         {
@@ -21,7 +20,6 @@ namespace Entomophagy
                 }
                 if (__result.Contains(ThoughtDefOf.AteInsectMeatDirect))
                 {
-                    __result.Remove(ThoughtDefOf.AteCorpse);
                     __result.Remove(ThoughtDefOf.AteInsectMeatDirect);
                     __result.Add(ThoughtDef.Named("AteInsectMeatAsEntomophagous"));
                 }
@@ -29,3 +27,4 @@ namespace Entomophagy
         }
     }
 }
+        */
