@@ -2,7 +2,7 @@
 <Defs>
 	<ThingDef ParentName="MealCooked">
 		<defName>Insect_SimpleGrill</defName>
-		<label>simple insect grill</label>
+		<label>insect simple grill</label>
 		<description>A simple grilled meat cooked from a insect meat and a few ingredients. Very filling, grilled meats allow people to not feel hunger for a long time. Freezing them ruins this effect.</description>
 		<graphicData>
 			<texPath>Things/Meals/Insect_GrillSimple</texPath>
@@ -32,7 +32,7 @@
 
 	<ThingDef ParentName="MealCooked">
 		<defName>Insect_RuinedSimpleGrill</defName>
-		<label>ruined simple insect grill</label>
+		<label>ruined insect simple grill</label>
 		<description>A simple grilled insect meat cooked from a few ingredients. This grill has been frozen, and as such it is still edible but much less filling. It won't provide the "well fed" buff.</description>
 		<graphicData>
 			<texPath>Things/Meals/Insect_RuinedGrills/Insect_FGrillSimple</texPath>
@@ -52,7 +52,7 @@
 
 	<ThingDef ParentName="MealCooked">
 		<defName>Insect_FineGrill</defName>
-		<label>fine insect grill</label>
+		<label>insect fine grill</label>
 		<description>A complex grilled insect meat assembled with care from a wide selection of ingredients. Very filling, grilled meats allow people to not feel hunger for a long time. Freezing them ruins this effect.</description>
 		<graphicData>
 			<texPath>Things/Meals/Insect_GrillFine</texPath>
@@ -83,7 +83,7 @@
 
 	<ThingDef ParentName="MealCooked">
 		<defName>Insect_RuinedFineGrill</defName>
-		<label>ruined fine insect grill</label>
+		<label>ruined insect fine grill</label>
 		<description>A complex grilled insect meat assembled with care from a wide selection of ingredients. This grill has been frozen, and as such it is still edible but much less filling. It won't provide the "well fed" buff.</description>
 		<graphicData>
 			<texPath>Things/Meals/Insect_RuinedGrills/Insect_FGrillFine</texPath>
@@ -103,7 +103,7 @@
 
 	<ThingDef ParentName="MealCooked">
 		<defName>Insect_LavishGrill</defName>
-		<label>lavish insect grill</label>
+		<label>insect lavish grill</label>
 		<description>A masterpiece of the culinary arts, this grilled insect meat nourishes the body, mind, and soul. Very filling, grilled meats allow people to not feel hunger for a long time. Freezing them ruins this effect.</description>
 		<graphicData>
 			<texPath>Things/Meals/Insect_GrillLavish</texPath>
@@ -134,7 +134,7 @@
 
 	<ThingDef ParentName="MealCooked">
 		<defName>Insect_RuinedLavishGrill</defName>
-		<label>ruined lavish insect grill</label>
+		<label>ruined insect lavish grill</label>
 		<description>A masterpiece of the culinary arts, this grilled insect meat nourishes the body, mind, and soul. This grill has been frozen, and as such it is still edible but much less filling. It won't provide the "well fed" buff.</description>
 		<graphicData>
 			<texPath>Things/Meals/Insect_RuinedGrills/Insect_FGrillLavish</texPath>
@@ -154,7 +154,7 @@
 
 	<ThingDef ParentName="MealCooked">
 		<defName>Insect_GourmetGrill</defName>
-		<label>gourmet insect grill</label>
+		<label>insect gourmet grill</label>
 		<description>A culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity grilled meat. Very filling, grilled meats allow people to not feel hunger for a long time. Freezing them ruins this effect.</description>
 		<graphicData>
 			<texPath>Things/Meals/Insect_GrillGourmet</texPath>
@@ -179,13 +179,12 @@
 				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
 				<thingToTransformInto>Insect_RuinedGourmetGrill</thingToTransformInto>
 			</li>
-			<li Class="VanillaCookingExpanded.CompProperties_StackByIngredients" />
 		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="MealCooked">
 		<defName>Insect_RuinedGourmetGrill</defName>
-		<label>ruined gourmet insect grill</label>
+		<label>ruined insect gourmet sgrill</label>
 		<description>A culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity grilled meat. This grill has been frozen, and as such it is still edible but much less filling. It won't provide the "well fed" buff.</description>
 		<graphicData>
 			<texPath>Things/Meals/Insect_RuinedGrills/Insect_FGrillGourmet</texPath>
@@ -201,10 +200,6 @@
 			<ingestEffect>EatMeat</ingestEffect>
 			<ingestSound>RawMeat_Eat</ingestSound>
 		</ingestible>
-		<comps>
-
-			<li Class="VanillaCookingExpanded.CompProperties_StackByIngredients" />
-		</comps>
 	</ThingDef>
 
 

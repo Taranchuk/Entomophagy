@@ -2,7 +2,7 @@
 <Defs>
 	<ThingDef ParentName="MealCooked">
 		<defName>Insect_SimpleBake</defName>
-		<label>simple insect bake</label>
+		<label>insect simple bake</label>
 		<description>A simple bake quickly cooked from insect meat and flour.</description>
 		<graphicData>
 			<texPath>Things/Meals/Insect_BakeSimple</texPath>
@@ -23,7 +23,7 @@
 
 	<ThingDef ParentName="MealCooked">
 		<defName>Insect_FineBake</defName>
-		<label>fine insect bake</label>
+		<label>insect fine bake</label>
 		<description>A complex bake assembled with care from a wide selection of ingredients, insect meat, and flour.</description>
 		<graphicData>
 			<texPath>Things/Meals/Insect_BakeFine</texPath>
@@ -45,7 +45,7 @@
 
 	<ThingDef ParentName="MealCooked">
 		<defName>Insect_LavishBake</defName>
-		<label>lavish insect bake</label>
+		<label>insect lavish bake</label>
 		<description>A masterpiece of the culinary arts, this bake nourishes the body, mind, and soul.</description>
 		<graphicData>
 			<texPath>Things/Meals/Insect_BakeLavish</texPath>
@@ -67,7 +67,7 @@
 
 	<ThingDef ParentName="MealCooked">
 		<defName>Insect_GourmetBake</defName>
-		<label>gourmet insect bake</label>
+		<label>insect gourmet bake</label>
 		<description>A culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity bake.</description>
 		<graphicData>
 			<texPath>Things/Meals/Insect_BakeGourmet</texPath>
@@ -85,10 +85,6 @@
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>Meal_Eat</ingestSound>
 		</ingestible>
-		<comps>
-			<li Class="VanillaCookingExpanded.CompProperties_StackByIngredients" />
-
-		</comps>
 	</ThingDef>
 
 

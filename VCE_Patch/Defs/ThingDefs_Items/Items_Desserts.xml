@@ -2,7 +2,7 @@
 <Defs>
 	<ThingDef ParentName="ResourceBase">
 		<defName>Insect_SimpleDessert</defName>
-		<label>simple insect dessert</label>
+		<label>insect simple dessert</label>
 		<description>A simple dessert quickly made from insect jelly and other ingredients.</description>
 		<graphicData>
 			<texPath>Things/Meals/Insect_DessertSimple</texPath>
@@ -58,7 +58,7 @@
 
 	<ThingDef ParentName="ResourceBase">
 		<defName>Insect_FineDessert</defName>
-		<label>fine insect dessert</label>
+		<label>insect fine dessert</label>
 		<description>A complex dessert assembled with care from insect jelly and a wide selection of ingredients.</description>
 		<graphicData>
 			<texPath>Things/Meals/Insect_DessertFine</texPath>
@@ -115,7 +115,7 @@
 
 	<ThingDef ParentName="ResourceBase">
 		<defName>Insect_LavishDessert</defName>
-		<label>lavish insect dessert</label>
+		<label>insect lavish dessert</label>
 		<description>A masterpiece of the culinary arts, this dessert nourishes the body, mind, and soul.</description>
 		<graphicData>
 			<texPath>Things/Meals/Insect_DessertLavish</texPath>
@@ -168,9 +168,10 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
 	<ThingDef ParentName="ResourceBase">
 		<defName>Insect_GourmetDessert</defName>
-		<label>gourmet insect dessert</label>
+		<label>insect gourmet dessert</label>
 		<description>A culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity dessert.</description>
 		<graphicData>
 			<texPath>Things/Meals/Insect_DessertGourmet</texPath>
@@ -215,7 +216,6 @@
 				<daysToRotStart>4</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
-			<li Class="VanillaCookingExpanded.CompProperties_StackByIngredients" />
 			<li Class="CompProperties_Forbiddable" />
 			<li Class="CompProperties_Ingredients" />
 			<li Class="CompProperties_FoodPoisonable" />

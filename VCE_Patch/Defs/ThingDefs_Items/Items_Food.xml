@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="MealCooked">
     <defName>Insect_MealGourmet</defName>
-    <label>gourmet insect meal</label>
+    <label>insect gourmet meal</label>
     <description>A culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity insect meal.</description>
     <graphicData>
       <texPath>Things/Meals/Insect_Gourmet</texPath>
@@ -20,8 +20,5 @@
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
-	<comps>
-      <li Class="VanillaCookingExpanded.CompProperties_StackByIngredients" />     
-    </comps>
   </ThingDef> 
 </Defs>
