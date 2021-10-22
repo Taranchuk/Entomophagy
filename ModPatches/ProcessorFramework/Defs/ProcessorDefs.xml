@@ -20,7 +20,10 @@
 		<temperatureIdeal>10~36</temperatureIdeal>
 		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
 		<speedBelowSafe>0</speedBelowSafe>
-		<speedAboveSafe>0</speedAboveSafe>						
+		<speedAboveSafe>0</speedAboveSafe>	
+		<bonusOutputs>
+			<Megascarab>(.1,1)</Megascarab>
+		</bonusOutputs>
 	</ProcessorFramework.ProcessDef>
   
 	<ProcessorFramework.ProcessDef>
@@ -35,7 +38,7 @@
 				<li>Meat_Megaspider</li>
 			</disallowedThingDefs>
 		</ingredientFilter>
-		<processDays>1</processDays>
+		<processDays>1.2</processDays>
 		<efficiency>1.0</efficiency>
 		<capacityFactor>1</capacityFactor>
 		<usesTemperature>true</usesTemperature>
