@@ -12,6 +12,7 @@
 		<li>Common</li>
 		<li IfModActive="VanillaExpanded.VCookE">ModPatches\VCE_Patch</li>
 		<li IfModActive="syrchalis.processor.framework">ModPatches\ProcessorFramework</li>
+		<li IfModActive="Ludeon.RimWorld.Ideology">ModPatches\Ideology</li>
 	</v1.3>
 </loadFolders>
 
