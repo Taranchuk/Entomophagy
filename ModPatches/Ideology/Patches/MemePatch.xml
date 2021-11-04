@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/MemeDef[defName="Tunneler"]/agreeableTraits</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/MemeDef[defName="Tunneler"]/agreeableTraits</xpath>
+			<value>
+				<li>Entomophagous</li>
+			</value>		
+		</match>
+		<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/MemeDef[defName="Tunneler"]</xpath>
+		<value>
+			<agreeableTraits>
+				<li>Entomophagous</li>		
+			</agreeableTraits>
+		</value>		
+		</nomatch>
+	</Operation>
+</Patch>
