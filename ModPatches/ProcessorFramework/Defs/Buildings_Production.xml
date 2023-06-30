@@ -29,7 +29,6 @@
 				<cornerBL>Damage/Corner</cornerBL>
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
-			<drawOffset>(0,0,0.3)</drawOffset>
 			<drawSize>(1.2,1.2)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -102,7 +101,6 @@
 				<cornerBL>Damage/Corner</cornerBL>
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
-			<drawOffset>(0,0,0.25)</drawOffset>
 			<drawSize>(1.2,1.2)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
