@@ -118,6 +118,8 @@ namespace Entomophagy
         {
             for(int i=0; i < compIngredients.ingredients.Count; i++)
             {
+                if (compIngredients.ingredients[i] == ThingDefOf.InsectJelly)
+                    return true;
                 if (FoodUtility.GetMeatSourceCategory(compIngredients.ingredients[i]) == MeatSourceCategory.Insect)
                     return true;
             }
