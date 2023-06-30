@@ -13,6 +13,12 @@
 		<li IfModActive="VanillaExpanded.VCookE">ModPatches\VCE_Patch</li>
 		<li IfModActive="syrchalis.processor.framework">ModPatches\ProcessorFramework</li>
 	</v1.3>
+	<v1.4>
+		<li>1.4</li>
+		<li>Common</li>
+		<li IfModActive="VanillaExpanded.VCookE">ModPatches\VCE_Patch</li>
+		<li IfModActive="syrchalis.processor.framework">ModPatches\ProcessorFramework</li>
+	</v1.4>
 </loadFolders>
 
 

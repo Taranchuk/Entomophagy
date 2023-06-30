@@ -18,7 +18,6 @@
 		<category></category>
     <blockRandomInteraction>false</blockRandomInteraction>
 		<prisonersCanDo>false</prisonersCanDo>
-    <unspawnedCanDo>true</unspawnedCanDo>
 		<colonistsOnly>false</colonistsOnly>
 		<requiredCapacities>
 			<li>Eating</li>
